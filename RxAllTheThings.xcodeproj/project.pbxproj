@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2131F070ECA50FBCB38D422 /* Pods_RxAllTheThings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7179BC085289BA3BF958644D /* Pods_RxAllTheThings.framework */; };
 		B9FD95161F1162EF0010418B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD95151F1162EF0010418B /* AppDelegate.swift */; };
 		B9FD95181F1162EF0010418B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD95171F1162EF0010418B /* ViewController.swift */; };
 		B9FD951B1F1162EF0010418B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9FD95191F1162EF0010418B /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		B9FD95201F1162EF0010418B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9FD951E1F1162EF0010418B /* LaunchScreen.storyboard */; };
 		B9FD952B1F1162EF0010418B /* RxAllTheThingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD952A1F1162EF0010418B /* RxAllTheThingsTests.swift */; };
 		B9FD95361F1162EF0010418B /* RxAllTheThingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD95351F1162EF0010418B /* RxAllTheThingsUITests.swift */; };
+		B9FD95461F11688F0010418B /* ViewWithButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FD95451F11688F0010418B /* ViewWithButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4FB66FFB3BEC49C519877FDF /* Pods-RxAllTheThings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxAllTheThings.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxAllTheThings/Pods-RxAllTheThings.debug.xcconfig"; sourceTree = "<group>"; };
+		7179BC085289BA3BF958644D /* Pods_RxAllTheThings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxAllTheThings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9FD95121F1162EF0010418B /* RxAllTheThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxAllTheThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9FD95151F1162EF0010418B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9FD95171F1162EF0010418B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		B9FD95311F1162EF0010418B /* RxAllTheThingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxAllTheThingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9FD95351F1162EF0010418B /* RxAllTheThingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxAllTheThingsUITests.swift; sourceTree = "<group>"; };
 		B9FD95371F1162EF0010418B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9FD95451F11688F0010418B /* ViewWithButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewWithButtons.swift; sourceTree = "<group>"; };
+		D1F2C19D486C5F61E189E87C /* Pods-RxAllTheThings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxAllTheThings.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxAllTheThings/Pods-RxAllTheThings.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2131F070ECA50FBCB38D422 /* Pods_RxAllTheThings.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		061855C562861C4C867FC682 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FB66FFB3BEC49C519877FDF /* Pods-RxAllTheThings.debug.xcconfig */,
+				D1F2C19D486C5F61E189E87C /* Pods-RxAllTheThings.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1C37F7AA6260F2C7BD1A6A26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7179BC085289BA3BF958644D /* Pods_RxAllTheThings.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B9FD95091F1162EE0010418B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +105,8 @@
 				B9FD95291F1162EF0010418B /* RxAllTheThingsTests */,
 				B9FD95341F1162EF0010418B /* RxAllTheThingsUITests */,
 				B9FD95131F1162EF0010418B /* Products */,
+				061855C562861C4C867FC682 /* Pods */,
+				1C37F7AA6260F2C7BD1A6A26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +129,7 @@
 				B9FD951C1F1162EF0010418B /* Assets.xcassets */,
 				B9FD951E1F1162EF0010418B /* LaunchScreen.storyboard */,
 				B9FD95211F1162EF0010418B /* Info.plist */,
+				B9FD95451F11688F0010418B /* ViewWithButtons.swift */,
 			);
 			path = RxAllTheThings;
 			sourceTree = "<group>";
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9FD953A1F1162EF0010418B /* Build configuration list for PBXNativeTarget "RxAllTheThings" */;
 			buildPhases = (
+				8734D8C8A7C7E78C2BE79025 /* [CP] Check Pods Manifest.lock */,
 				B9FD950E1F1162EF0010418B /* Sources */,
 				B9FD950F1F1162EF0010418B /* Frameworks */,
 				B9FD95101F1162EF0010418B /* Resources */,
+				6F86266CFD3C4E483850E1B5 /* [CP] Embed Pods Frameworks */,
+				A988D8A878C9F258019B8B3D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +284,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6F86266CFD3C4E483850E1B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxAllTheThings/Pods-RxAllTheThings-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8734D8C8A7C7E78C2BE79025 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A988D8A878C9F258019B8B3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxAllTheThings/Pods-RxAllTheThings-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B9FD950E1F1162EF0010418B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +339,7 @@
 			files = (
 				B9FD95181F1162EF0010418B /* ViewController.swift in Sources */,
 				B9FD95161F1162EF0010418B /* AppDelegate.swift in Sources */,
+				B9FD95461F11688F0010418B /* ViewWithButtons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +491,7 @@
 		};
 		B9FD953B1F1162EF0010418B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB66FFB3BEC49C519877FDF /* Pods-RxAllTheThings.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RxAllTheThings/Info.plist;
@@ -424,6 +504,7 @@
 		};
 		B9FD953C1F1162EF0010418B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1F2C19D486C5F61E189E87C /* Pods-RxAllTheThings.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RxAllTheThings/Info.plist;
@@ -507,6 +588,7 @@
 				B9FD953C1F1162EF0010418B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9FD953D1F1162EF0010418B /* Build configuration list for PBXNativeTarget "RxAllTheThingsTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +597,7 @@
 				B9FD953F1F1162EF0010418B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9FD95401F1162EF0010418B /* Build configuration list for PBXNativeTarget "RxAllTheThingsUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +606,7 @@
 				B9FD95421F1162EF0010418B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
